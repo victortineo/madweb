@@ -1,0 +1,95 @@
+@import 'joel'
+@import 'luis'
+.page-header
+	margin 0
+	padding 0
+	border 0
+	color $white
+	text-align center
+	.title
+		font-size 30px
+		font-weight 700
+		margin 5px 0
+		.light
+			font-weight 100
+	.subtitle
+		font-size 13px
+		font-weight 400
+		margin 0
+		color $customblue
+.depoimentos-slider
+	overflow hidden
+	.carousel
+		padding-top 25px
+		@media mqtablet
+			max-width 90%
+			margin 0 auto
+			padding-top 15px
+	.carousel-inner
+		overflow visible
+		max-height 100%
+	.case
+		text-align center
+	.indicators
+		float left
+		margin-top 60px
+		text-align center
+		@media mqtablet-md
+			overflow auto
+			display inline-block
+			float none
+			margin-top 10px
+			margin-right 0
+	.controls
+		position relative
+		z-index 99
+		float right
+		width 27px
+		height 25px
+		background-color transparent
+		border 0
+		border-radius 0
+		outline 0
+		clear both
+		&.next
+			margin-top 15px
+			cover('../../assets/img/rightde.png')
+		&.prev
+			margin-right 30px
+			cover('../../assets/img/leftde.png')
+	.item
+		.peoples
+			text-align center
+		.statics
+			color $white
+		.title,h1
+			font-size 20px
+			font-weight 700
+		.name
+			margin 0
+			font-size 14px
+			font-weight 100
+			text-transform uppercase
+		.status,span
+			margin 0
+			font-size 12px
+			font-weight 100
+		.case
+			margin-top 25px
+			text-align justify
+			font-size 15px
+			font-weight 100
+			color $white
+			strong
+				font-weight 700
+		.aspas
+			&-1
+				margin-top -25px
+				margin-left -35px
+			&-2
+				float right
+				margin-right -35px
+			@media mqtablet
+				max-width 25px
+				
+		
