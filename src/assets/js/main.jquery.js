@@ -1,13 +1,13 @@
 $(document).ready(function(){
 setTimeout(function(){
 	// Scroll effect ancor
-	$('.link-animation').click(function() {
+	$('.link-animation').find('a').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname ==      this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: (target.offset().top) - 70
+          scrollTop: (target.offset().top) - 64
         }, 1000);
         return false;
       }
@@ -33,9 +33,9 @@ setTimeout(function(){
 	// CAROUSEL PARALLAX
 	$('.container--parallax').each(function(){
 		var $obj = $(this);
-		$('header').css('margin-bottom', $obj.height()+'px');
+		$('#top').css('margin-bottom', $obj.height()+'px');
 	 	$(window).resize(function() {
-			$('header').css('margin-bottom', $obj.height()+'px');
+			$('#top').css('margin-bottom', $obj.height()+'px');
 	 	}); 
 	});
 	// // CURRENT POSITION
