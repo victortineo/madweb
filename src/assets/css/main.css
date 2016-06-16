@@ -468,7 +468,8 @@ strong {
   text-shadow: none;
 }
 .carousel .carousel-inner .item .carousel-caption h1 {
-  font-size: 66.02px;
+  text-transform: uppercase;
+  font-size: 48px;
   font-weight: 900;
 }
 .carousel .carousel-inner .item .carousel-caption p {
@@ -477,7 +478,7 @@ strong {
 }
 .carousel .carousel-inner .item .carousel-caption a {
   max-width: 300px;
-  width: 100%;
+  width: 80%;
   display: inline-block;
   color: branco;
   font-size: 19.45px;
@@ -503,7 +504,7 @@ strong {
 }
 @media only screen and (max-width: 990px) {
   .carousel .carousel-inner .item .carousel-caption {
-    bottom: 35%;
+    bottom: 25%;
   }
   .carousel .carousel-inner .item .carousel-caption h1 {
     font-size: 32px;
@@ -516,10 +517,10 @@ strong {
 }
 @media only screen and (max-width: 480px) {
   .carousel .carousel-inner .item .carousel-caption h1 {
-    font-size: 32px;
+    font-size: 24px;
   }
   .carousel .carousel-inner .item .carousel-caption p {
-    font-size: 32px;
+    font-size: 24px;
   }
 }
 .carousel .carousel-indicators li {
@@ -876,6 +877,13 @@ strong {
   margin: 0 auto -30px auto;
   color: #333;
 }
+@media only screen and (max-width: 480px) {
+  .section-n5-content .sale .sale-price,
+  .section-n5-content .sale1 .sale-price {
+    margin: 0 auto -15px auto;
+    font-size: 18px;
+  }
+}
 .section-n5-content .sale .price-r,
 .section-n5-content .sale1 .price-r,
 .section-n5-content .sale .price-d,
@@ -891,8 +899,13 @@ strong {
 .section-n5-content .sale2 .wrapper-price {
   margin: 0 auto -30px auto;
 }
+@media only screen and (max-width: 480px) {
+  .section-n5-content .sale2 .wrapper-price {
+    margin: 0 auto -15px auto;
+  }
+}
 .section-n5-content .sale2 .sale-price {
-  margin: 0 auto 0 2px;
+  margin: 0 auto 0 auto;
   width: 48%;
   display: inline-block;
   background-color: #c6d346;
@@ -928,10 +941,17 @@ strong {
   border-right: 1px solid rgba(255,255,255,0.5);
 }
 .section-n5-content .sale-lid a {
+  font-style: italic;
   margin: 0 auto -30px auto;
   width: 30%;
   font-size: 32px;
   font-weight: 100;
+}
+@media only screen and (max-width: 767px) {
+  .section-n5-content .sale-lid a {
+    font-size: 28px;
+    width: 98%;
+  }
 }
 .section-n6 {
   background-color: #eaeaea;
