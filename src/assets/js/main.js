@@ -1,5 +1,4 @@
 ;(function() {
-	
 	// Toggle Menu
 	// Vars
 	var $menu = document.querySelector('.navbar .menu');
@@ -10,7 +9,6 @@
 	function menuToggle(e) {
 		$menu.classList.toggle('active');
 	}
-
 	// Toggle Modal
 	// Vars
 	var $modal = document.querySelector('.modalContact');

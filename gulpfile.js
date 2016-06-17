@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var stylus = require('gulp-stylus');
 var clean = require('gulp-clean');
 var cleanCSS = require('gulp-clean-css');
-var plumber     = require('gulp-plumber');
+var plumber = require('gulp-plumber');
 var minify = require('gulp-minify');
 var htmlmin = require('gulp-htmlmin');
 var imagemin = require('gulp-imagemin');
@@ -10,12 +10,12 @@ var imagemin = require('gulp-imagemin');
 // Copiar arquivos para pasta dist
 gulp.task('copy', function() {
     return gulp.src(['src/assets/{img,font}/**/*'], {base: 'src'})
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('dist/'));
 });
 
 // Apaga os arquivos da pasta dist
 gulp.task('clean', function() {
-    return gulp.src('dist/', {read: false})
+    return gulp.src('dist0', {read: false})
         .pipe(clean());
 });
 
@@ -37,7 +37,7 @@ gulp.task('minify-css', function() {
 
 // Minificar HTML
 gulp.task('minify-html', function() {
-  return gulp.src('src/*.html')
+  return gulp.src('src/**/*.html')
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('dist/'))
 });

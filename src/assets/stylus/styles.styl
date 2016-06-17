@@ -5,11 +5,11 @@
 	margin 0 auto
 	padding 0 15px
 	transition(.2s all ease-in)
-	background-color alpha($customwhite1,90%)
+	background-color $customwhite1
 	@media mqtablet-md
 		top 0
 		padding 0 15px
-		background-color alpha($customwhite1,90%)
+		background-color $customwhite1
 	.branding
 		text-align center
 		display block
@@ -20,7 +20,6 @@
 		background-color white
 	.menu
 		ul
-			float right
 			margin 0
 			padding 0
 			list-style none
@@ -33,8 +32,15 @@
 				padding-right 10px
 				&:last-child
 					padding-right 0
+				&.active
+					a
+						color $customgreen5
+						background-color transparent
+						border-bottom 4px solid $customgreen5
+						@media mqtablet-md
+							border 0
 				a
-					font-weight 700
+					font-weight 600
 					text-decoration none
 					text-transform uppercase
 					padding 20px 5px
@@ -44,7 +50,7 @@
 			text-align center
 			li
 				a 
-					font-size 13.5px
+					font-size 13px
 					letter-spacing 1px
 					color $customblack2
 					transition .2s color linear
@@ -133,9 +139,11 @@
 					text-transform uppercase
 					font-size 48px
 					font-weight 900
+					text-shadow(1px 1px 1px black)
 				p
 					font-size 41.42px
 					font-weight 400
+					text-shadow(1px 1px 1px black)
 				a
 					max-width 300px
 					width 80%
@@ -186,9 +194,10 @@
 	background-color $customwhite1
 	background-image url('../../assets/img/bg-section-n1.jpg')
 	color $customblack2
-	&__about
+	&__content
 		max-width 550px
 		margin 0 auto
+	&__about
 		text-align center
 		font-size 16px
 		.page-header
@@ -253,6 +262,7 @@
 				overflow auto
 				background-color $customwhite1
 				border 1px solid $customgray1
+				padding 0
 				&.active
 					.arrow-up
 						opacity 1
@@ -320,6 +330,7 @@
 					-webkit-transform translateY(-50%)
 					-moz-transform translateY(-50%)
 					transform translateY(-50%)
+					max-width 580px
 					@media mqtablet
 						position relative
 						right 0
@@ -415,7 +426,13 @@
 			.wrapper-sale
 				margin 15px 0
 				border 1px solid alpha($customwhite1, 50%)
+			.setup
+				padding 30px 0
+			.mensal
+				padding 17px 0
 			.sale-desc
+				overflow auto
+				zoom 1
 				padding 68px 0
 				font-size 24px
 				font-weight bold
@@ -429,7 +446,7 @@
 				width 90%
 				margin 0 auto -30px auto
 				color $customblack3
-				@media mqmobile
+				@media mqmobile-md
 					margin 0 auto -15px auto
 					font-size 18px
 			.price-r,
@@ -442,13 +459,21 @@
 		.sale2
 			.wrapper-price
 				margin 0 auto -30px auto
-				@media mqmobile
+				.quebra
+					display none
+				@media mqmobile-md
 					margin 0 auto -15px auto
+				@media mqmobile
+					.quebra
+						display inline
 			.sale-price
 				margin 0 auto 0 auto
-				width 48%
+				width 40%
 				display inline-block
 				background-color $customgreen1
+				&--middle
+					width 10%
+					background-color $customyellow2
 			.sale-desc
 				padding 35px 0
 			.price-r,
@@ -527,5 +552,11 @@
 	a
 		font-size 13px
 		color $customwhite1
-	
+.thankyou-form
+	min-height 100vh
+	img
+		position fixed
+		top 50%
+		left 25%
+		vertical-middle(-50%)
 	
