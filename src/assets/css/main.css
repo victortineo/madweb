@@ -342,6 +342,9 @@ strong {
     min-height: 100px;
   }
 }
+.mod_tabnav2 .nav-tabs li img {
+  max-width: 100%;
+}
 .mod_tabnav2 .nav-tabs li.active {
   background-color: #e4e5e4;
 }
