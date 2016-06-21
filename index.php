@@ -1,49 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-	<title>Intrust Web</title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href=".././bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href=".././bower_components/animate.css/animate.min.css">
-	<link rel="stylesheet" type="text/css" href="./assets/font/icomoon/style.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-<header id="top">
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="branding col-xs-6 col-sm-4">
-      <a href="#" title="TT Elegancia">
-        <img src="assets/img/intrust.png" alt="INTRUST WEB">
-      </a>
-    </div><!-- fim branding -->
-    <div class="menu-collapse float--right">
-      <span class="glyphicon glyphicon-th"></span>
-    </div>
-    <div class="menu col-xs-8">
-      <div class="row">
-        <div class="col-xs-12">
-          <div id="menu-wrapper" class="menu__wrapper link-animation">
-            <ul id="menu-list" class="nav navbar-nav menu__list">
-              <li class="page-scroll"><a href="#top">Home</a></li>
-              <li class="page-scroll"><a href="#about">Quem Somos</a></li>
-              <li class="page-scroll"><a href="#clients">Nossos Clientes</a></li>
-              <li class="page-scroll"><a href="#products">Produtos</a></li>
-              <li class="page-scroll"><a href="#contact">Contato</a></li>
-            </ul>
-          </div> <!-- /#menu-wrapper -->
-        </div> <!-- /.col-xs-12 -->
-      </div><!-- fim row -->
-    </div><!-- fim menu -->
-  </div><!-- /.container-fluid -->
-</nav>
+<?php get_header(); ?>
 
 <div id="carousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -56,7 +11,7 @@
       <div class="carousel-caption aniview" av-animation="slideInRight">
         <h1>Você precisa desenvolver um site.<br>Nós desejamos fazer um site para você!</h1>
         <p>Soluções para vender mais na internet</p>
-        <a href="#about" class="btn btn-custom1">PERGUNTE-ME COMO</a>
+        <a href="#about" class="btn btn-custom1">SAIBA MAIS</a>
       </div>
     </div>
   </div>
@@ -137,32 +92,32 @@
     <ul class="nav nav-tabs" role="tablist">
       <li role="presentation" class="active col-xs-6 col-sm-6 col-md-2">
         <a href="#tab-pane1" aria-controls="tab-pane1" role="tab" data-toggle="tab">
-          <img src="./assets/img/cases/logo1.png" alt="MOV INVESTIMENTOS">
+          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo1.png" alt="MOV INVESTIMENTOS">
         </a>
       </li>
       <li role="presentation" class="col-xs-6 col-sm-6 col-md-2">
         <a href="#tab-pane2" aria-controls="tab-pane2" role="tab" data-toggle="tab">
-          <img src="./assets/img/cases/logo2.png" alt="JC NASSUR"> 
+          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo2.png" alt="JC NASSUR"> 
         </a>
       </li>
       <li role="presentation" class="col-xs-6 col-sm-6 col-md-2">
         <a href="#tab-pane3" aria-controls="tab-pane3" role="tab" data-toggle="tab">
-          <img src="./assets/img/cases/logo3.png" alt="DR MAURICIO KURK"> 
+          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo3.png" alt="DR MAURICIO KURK"> 
         </a>
       </li>
       <li role="presentation" class="col-xs-6 col-sm-6 col-md-2">
         <a href="#tab-pane4" aria-controls="tab-pane4" role="tab" data-toggle="tab">
-          <img src="./assets/img/cases/logo4.png" alt="PANDORAS BOX"> 
+          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo4.png" alt="PANDORAS BOX"> 
         </a>
       </li>
       <li role="presentation" class="col-xs-6 col-sm-6 col-md-2">
         <a href="#tab-pane5" aria-controls="tab-pane5" role="tab" data-toggle="tab">
-          <img src="./assets/img/cases/logo5.png" alt="BIG CASE">
+          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo5.png" alt="BIG CASE">
         </a>
       </li>
       <li role="presentation" class="col-xs-6 col-sm-6 col-md-2">
         <a href="#tab-pane6" aria-controls="tab-pane6" role="tab" data-toggle="tab">
-          <img src="./assets/img/cases/logo6.png" alt="SEQUENZA">   
+          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo6.png" alt="SEQUENZA">   
         </a>
       </li>
     </ul> <!-- /.nav-tabs -->
@@ -177,7 +132,7 @@
     <!-- GLOBALSTAR -->
     <article role="tabpanel" class="tab-pane fade in active" id="tab-pane1">
       <div class="col-xs-12 col-sm-12 col-md-6 tab-content-wrapper tab-content-1">
-        <img src="./assets/img/cases/mov.gif" alt="MOV INVESTIMENTOS">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/mov.gif" alt="MOV INVESTIMENTOS">
         <h1>MOV INVESTIMENTOS</h1>
         <p>"O desenvolvimento aconteceu com fluidez e com um atendimento de muita qualidade, estou 100% satisfeito e tenho orgulho do resultado final. Sou grato pelo trabalho desenvolvimento pela equipe da Intrust Web"</p>
         <span>Kim</span>
@@ -188,7 +143,7 @@
     </article>
     <article role="tabpanel" class="tab-pane fade" id="tab-pane2">
       <div class="col-xs-12 col-sm-12 col-md-6 tab-content-wrapper tab-content-1">
-        <img src="./assets/img/cases/jc-nassur.gif" alt="JC NASSUR">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/jc-nassur.gif" alt="JC NASSUR">
         <h1>JC NASSUR</h1>
         <p>Site desenvolvido em cima de um framework atualizado e moderno levando em conta que o cliente é do ramo tecnológico. A proposta exibe imagens relacionadas aos serviços no slider para contextualizar o usuário em seu seguimento. Com uma estrutura de rápida leitura e entendimento pois foi possível se ter um ótimo resultado com UX , os campos seguem uma linha coerente de conteúdo, apresentando a empresa de acordo com a mudança de seções. Nosso objetivo com esse site foi que o usuário já chegasse ao final do site com a vontade de fazer uma parceria com a JC Nassur, e conseguimos esse nível de excelência.</p>
         <!-- <span>Kim</span> -->
@@ -199,7 +154,7 @@
     </article>
     <article role="tabpanel" class="tab-pane fade" id="tab-pane3">
       <div class="col-xs-12 col-sm-12 col-md-6 tab-content-wrapper tab-content-1">
-        <img src="./assets/img/cases/mov.png" alt="DR MAURICIO KURC">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/mov.png" alt="DR MAURICIO KURC">
         <h1>DR MAURICIO KURC</h1>
         <p>A concepção desse site foi bem interessante, fizemos esse site pensando em toda sofisticação que o consultório médico do Dr Mauricio Kurk possui. Conseguimos traduzir o refinamento empregado em seu consultório através do site e o resultado foi muito satisfatório.</p>
         <!-- <span>DR MAURICIO KURC</span> -->
@@ -210,7 +165,7 @@
     </article>
     <article role="tabpanel" class="tab-pane fade" id="tab-pane4">
       <div class="col-xs-12 col-sm-12 col-md-6 tab-content-wrapper tab-content-1">
-        <img src="./assets/img/cases/Pandoras.gif" alt="PANDORAS BOX">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/Pandoras.gif" alt="PANDORAS BOX">
         <h1>PANDORAS BOX</h1>
         <p>O site da Pandoras Box foi bem bacana de fazer, o importante era ter imagens que exemplificasse bem o Core Business do cliente. Como tudo na Pandoras Box é muito visual trouxemos um layout com bastante sliders, deixando os conteúdos leves e bem ilustrados, seguindo o conceito do “menos é mais”.</p>
         <!-- <span>Kim</span> -->
@@ -221,7 +176,7 @@
     </article>
     <article role="tabpanel" class="tab-pane fade" id="tab-pane5">
       <div class="col-xs-12 col-sm-12 col-md-6 tab-content-wrapper tab-content-1">
-        <img src="./assets/img/cases/bigcase.gif" alt="BIG CASE">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/bigcase.gif" alt="BIG CASE">
         <h1>BIG CASE</h1>
         <p>Este site foi desenvolvido e pensado para um público jovem, universitários. Então usamos cores que trazem em seu tom uma certa jovialidade, e para complementar essa ideia, foram empregados ícones nesse mesmo contexto, deixando o site bem moderno e atual. Tivemos bastante êxito pois as expectativas do cliente foram excedidas principalmente quanto a layout e também quanto a funcionalidades.</p>
         <!-- <span>Kim</span> -->
@@ -232,7 +187,7 @@
     </article>
     <article role="tabpanel" class="tab-pane fade" id="tab-pane6">
       <div class="col-xs-12 col-sm-12 col-md-6 tab-content-wrapper tab-content-1">
-        <img src="./assets/img/cases/sequenza.gif" alt="SEQUENZA">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/sequenza.gif" alt="SEQUENZA">
         <h1>SEQUENZA</h1>
         <p>Este projeto foi muito interessante de se fazer, pois foi o primeiro job que fizemos. O site é multipage mas também é onepage, apresentando assim páginas longas que descrevem o que a empresa faz de maneira fácil e intuitiva, na home a história da empresa é apresentada ao visitante da página. O UX também foi bem empregado neste projeto, pensamos na concepção do mesmo, desde o nascimento com o Wireframe até o desenvolvimento do responsivo. E o resultado final foi um site bem visual, com efeitos bacanas e muita modernidade impressa. Temos um projeto bem diferente dos projetos de empresas de TI que geralmente seguem um mesmo padrão mais conservador.</p>
         <!-- <span>Kim</span> -->
@@ -305,7 +260,7 @@
         <h1>Quanto custa</h1>
         <h2>Contrate agora seu Website com a Intrust Web e desfrute dos benefícios que preparamos para você:</h2>
       </header>
-      <img class="img-divisor" src="./assets/img/quanto-custa.png" alt="MOV INVESTIMENTOS">
+      <img class="img-divisor" src="<?php echo get_template_directory_uri() ?>/dist/assets/img/quanto-custa.png" alt="MOV INVESTIMENTOS">
     </div><!-- row -->
   </div><!-- container -->
 </section><!-- section-n5 -->
@@ -321,7 +276,7 @@
         </div>
       </div>
       <div class="col-xs-12 col-md-1 sale-or">
-        <img src="./assets/img/ou.png" alt="Ou">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/ou.png" alt="Ou">
       </div>
       <div class="col-xs-12 col-md-8 sale sale2">
         <strong>CONTRATAÇÃO</strong>
@@ -380,58 +335,4 @@
   </div><!-- container -->
 </section><!-- section-n6 -->
 
-<!-- Modal Contact -->
-<section class="modalContact">
-  <div class="modalContact__wrapper">
-    <span class="modalContact__toggle glyphicon glyphicon-remove modalContact__click"></span>
-    <header class="page-header">
-      <h1>COMPRE AGORA</h1>
-    </header>
-    <div class="content">
-      <form action="https://formspree.io/contato@madgo.com.br" method="POST">
-      <input type="hidden" name="Lugar" value="Intrust WEB" />
-      <input type="hidden" name="_next" value="http://madknow.com.br/madweb/obrigado.html" />
-      <input type="hidden" name="_subject" value="Contato - Intrust WEB" />
-        <div class="col-xs-12">
-          <div class="input-group--default">
-            <input required placeholder="NOME" name="Nome" type="text" >
-          </div>
-          <div class="input-group--default">
-            <input required placeholder="E-MAIL" name="E-mail" type="text" >
-          </div>
-          <div class="input-group--default">
-            <input required placeholder="TELEFONE" name="Telefone" type="text" >
-          </div>
-          <div class="input-group--default">
-            <textarea required placeholder="MENSAGEM" name="Mensagem"></textarea>
-          </div>
-          <input type="submit" class="btn btn-custom2 text-center" value="ENVIAR">
-        </div>
-      </form>
-    </div>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="footer__contact">
-    <p>contato@intrustweb.com.br <span class="hidden-xs">|</span> Ou se preferir, ligue-nos: 11 3436.8132</p>
-  </div>
-  <div class="footer__credits">
-    <span>UM PRODUTO <a href="http://madgo.com.br" target="_blank"><strong>MADGO</strong></a></span>
-  </div>
-  <figure class="postit-fixed1 link-animation visible-md visible-lg">
-    <a href="#contact" title="Faça um orçamento!">
-      <img src="./assets/img/quero_orcamento.png" alt="Quero um Orçamento">
-    </a>
-  </figure>
-</footer>
-<script type="text/javascript" src=".././bower_components/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-<script type="text/javascript" src=".././bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="./assets/js/classie.js"></script>
-<script type="text/javascript" src="./assets/js/cbpAnimatedHeader.js"></script>
-<script type="text/javascript" src="./assets/js/main.js"></script>
-<script type="text/javascript" src="./assets/js/main.jquery.js"></script>
-<script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-</body>
-</html>
+<?php get_footer(); ?>

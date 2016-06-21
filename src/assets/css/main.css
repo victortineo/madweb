@@ -115,9 +115,12 @@ p {
   line-height: 1.2;
   padding: 20px 0;
 }
-body {
+body,
+html {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 section {
   position: relative;
@@ -174,6 +177,7 @@ strong {
   font-size: 14px;
   font-weight: 700;
   color: #4b4b4b;
+  margin-bottom: 5px;
 }
 .input-group input,
 .input-group textarea {
@@ -185,28 +189,24 @@ strong {
 }
 .input-group input::-webkit-input-placeholder,
 .input-group textarea::-webkit-input-placeholder {
-  font-size: 19.45px;
   font-weight: 700;
   text-align: center;
   color: #4b4b4b;
 }
 .input-group input:-moz-placeholder,
 .input-group textarea:-moz-placeholder {
-  font-size: 19.45px;
   font-weight: 700;
   text-align: center;
   color: #4b4b4b;
 }
 .input-group input::-moz-placeholder,
 .input-group textarea::-moz-placeholder {
-  font-size: 19.45px;
   font-weight: 700;
   text-align: center;
   color: #4b4b4b;
 }
 .input-group input:-ms-input-placeholder,
 .input-group textarea:-ms-input-placeholder {
-  font-size: 19.45px;
   font-weight: 700;
   text-align: center;
   color: #4b4b4b;
@@ -272,6 +272,203 @@ strong {
   min-height: 140px;
   resize: none;
 }
+.blog {
+  padding: 100px 15px;
+}
+.blog .page-header {
+  padding: 15px 0;
+  text-align: left;
+}
+.blog .page-header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #5d8531;
+}
+.blog .page-header h1 span {
+  border-bottom: 5px solid #c1d938;
+}
+@media screen and (max-width: 768px) {
+  .blog .page-header {
+    text-align: center;
+  }
+}
+.blog .post-preview {
+  padding-bottom: 20px;
+}
+.blog .post-preview .post-thumbnail {
+  overflow: hidden;
+  zoom: 1;
+  min-height: 228px;
+  max-height: 228px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.2s all ease-in;
+  -moz-transition: 0.2s all ease-in;
+  transition: 0.2s all ease-in;
+}
+.blog .post-preview .post-content {
+  padding: 15px;
+  background-color: #9bb33c;
+}
+.blog .post-preview .post-content h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.blog .post-preview .post-content a {
+  color: #fff;
+  text-decoration: none;
+}
+.blog .post-preview .post-content a:hover {
+  color: rgba(255,255,255,0.9);
+}
+.blog .post-preview .post-content p {
+  padding: 15px 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .blog .post-preview .post-content {
+    text-align: center;
+  }
+}
+.blog .post-excerpt {
+  padding: 15px;
+}
+.blog .post-excerpt .glyphicon {
+  padding-right: 10px;
+}
+.blog .post-excerpt span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #438624;
+  text-transform: uppercase;
+}
+.blog .post-excerpt strong {
+  padding-top: 15px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #808080;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .blog .post-excerpt {
+    text-align: center;
+  }
+}
+.blog .pagenavi {
+  text-align: center;
+}
+.blog .sidebar {
+  margin-top: 25px;
+  text-align: center;
+  color: #fff;
+}
+.blog .sidebar header {
+  margin-top: 15px;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #438624;
+}
+.blog .sidebar header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #438624;
+  text-transform: uppercase;
+}
+.blog .sidebar.newsletter {
+  padding: 15px;
+  background-color: #333;
+}
+.blog .sidebar.newsletter header {
+  border-color: #f1e44d;
+}
+.blog .sidebar.newsletter header h1 {
+  color: #fff;
+}
+.blog .sidebar.socials img {
+  padding-top: 15px;
+}
+.blog .sidebar span {
+  display: block;
+  margin: 15px 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.blog .sidebar input {
+  width: 100%;
+  padding: 5px;
+  border: 0;
+  margin: 0;
+  font-weight: 700;
+  color: #57004f;
+}
+.blog .sidebar button {
+  margin: 15px 0;
+  font-weight: 600;
+}
+.blog .sidebar ul {
+  padding-top: 20px;
+  padding-left: 30px;
+  text-align: left;
+list-style
+}
+.blog .sidebar li,
+.blog .sidebar a {
+  list-style-type: square;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+.blog .sidebar li:hover,
+.blog .sidebar a:hover {
+  font-weight: 600;
+}
+.faq {
+  padding-bottom: 50px;
+}
+.faq .page-header {
+  padding: 15px 0;
+}
+.faq .page-header h1 {
+  font-size: 43px;
+  font-weight: bold;
+  color: #316399;
+}
+.faq .page-header h1 span {
+  border-bottom: 5px solid #ffcb00;
+}
+.faq .panel-group .panel {
+  border-radius: 0;
+}
+.faq .panel-default .panel-heading {
+  background-image: none;
+  background-color: #00a890;
+  border-radius: 0;
+  color: #fff;
+}
+.faq .panel-default .panel-body a {
+  color: #316399 !important;
+}
+.faq .close-panel span {
+  color: #fff;
+  padding: 11.5px;
+  background-color: #00a890;
+}
+.faq .close-panel span:before {
+  content: "\2212";
+}
+.faq .close-panel span.collapsed:before {
+  content: "\002b";
+}
 .modalContact {
   position: fixed;
   top: 0;
@@ -308,6 +505,10 @@ strong {
   font-size: 30px;
   font-weight: 700;
   color: #fff;
+}
+.modalContact__wrapper .page-header h1 small {
+  color: #fff;
+  font-size: 16px;
 }
 .modalContact__wrapper .content {
   max-width: 500px;

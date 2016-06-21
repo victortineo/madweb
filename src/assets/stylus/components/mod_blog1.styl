@@ -1,0 +1,153 @@
+.blog
+	padding 100px 15px
+	.page-header 
+		padding 15px 0
+		text-align left
+		h1 
+			font-size 32px
+			font-weight bold
+			color $customgreen2
+			span 
+				border-bottom 5px solid $customgreen3
+		@media screen and (max-width 768px)
+			text-align center
+	.post-preview
+		padding-bottom 20px
+		.post-thumbnail
+			overflow hidden
+			zoom 1
+			min-height 228px
+			max-height 228px
+			background-size cover
+			background-position center center
+			background-repeat no-repeat
+			transition(.2s all ease-in)
+		.post-content
+			padding 15px
+			background-color $customgreen4
+			h1
+				padding 0
+				margin 0
+				font-size 18px
+				font-weight 700
+				color white
+			a
+				color white
+				text-decoration none
+				&:hover
+					color rgba(255,255,255,.9)
+			p 
+				padding 15px 0
+				margin 0
+				font-size 14px
+				font-weight 400
+				color white
+			@media screen and (max-width 768px)
+				text-align center
+	.post-excerpt
+		padding 15px
+		.glyphicon
+			padding-right 10px
+		span
+			font-size 14px
+			font-weight 400
+			color $customgreen5
+			text-transform uppercase
+		strong
+			padding-top 15px
+			font-size 15px
+			font-weight 700
+			color gray
+			text-transform uppercase
+		@media screen and (max-width 768px)
+			text-align center
+	.pagenavi
+		text-align center
+	.sidebar
+		margin-top 25px
+		text-align center
+		color white
+		header
+			margin-top 15px
+			padding 15px
+			text-align center
+			border 1px solid $customgreen5
+			h1
+				margin 0
+				padding 0
+				font-size 16px
+				font-weight 700
+				color $customgreen5
+				text-transform uppercase
+		&.newsletter
+			padding 15px
+			background-color $customblack3
+			header
+				border-color $customyellow2
+				h1
+					color $customwhite1
+		&.socials
+			img
+				padding-top 15px
+		span
+			display block
+			margin 15px 0
+			font-size 16px
+			font-weight 400
+			color white
+		input
+			width 100%
+			padding 5px
+			border 0
+			margin 0
+			font-weight 700
+			color rgb(87, 0, 79)
+		button
+			margin 15px 0
+			font-weight 600
+		ul
+			padding-top 20px
+			padding-left 30px
+			text-align left
+			list-style 
+		li,a
+			list-style-type square
+			font-size 16px
+			font-weight 400
+			color black
+			&:hover
+				font-weight 600
+.faq
+	padding-bottom 50px
+	.page-header 
+		padding 15px 0
+		h1 
+			font-size 43px
+			font-weight bold
+			color rgb(49, 99, 153)
+			span 
+				border-bottom 5px solid #ffcb00
+	.panel-group 
+		.panel 
+			border-radius 0 
+	.panel-default 
+		.panel-heading
+			background-image none
+			background-color rgb(0, 168, 144)
+			border-radius 0
+			color white
+		.panel-body 
+			a
+				color rgb(49, 99, 153) !important
+	.close-panel
+		span
+			color white
+			padding 11.5px
+			background-color rgb(0, 168, 144)
+			&:before
+				content "\2212"
+		span.collapsed
+			&:before
+				content "\002b"
+
+	
