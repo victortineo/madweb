@@ -16,7 +16,6 @@
     </div>
   </div>
 </div>
-</header>
 
 <!-- Section-n1 About -->
 <section id="about" class="section-n1">

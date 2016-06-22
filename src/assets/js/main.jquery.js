@@ -40,10 +40,6 @@ setTimeout(function(){
 			$zigContent2 = $('.zig__n'+i+' .zig__content-n1').css('height', $height+'px');
 		}
 	});
-	// Ativa link no navbar ao passar pela seção
-	$('body').scrollspy({
-	    target: '.navbar-fixed-top'
-	})
 	// Fecha o menu ao clicar no link
 	$('.navbar-collapse ul li a').click(function() {
 	    $('.navbar-toggle:visible').click();

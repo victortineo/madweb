@@ -30,7 +30,7 @@ Conteúdo para Blog,Social Mídia,SEO" />
     <![endif]-->
     <?php wp_head(); ?>
 </head>
-<body>
+<body data-spy="scroll" data-target="#menu-wrapper" data-offset="64">
 <header id="top">
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -47,11 +47,11 @@ Conteúdo para Blog,Social Mídia,SEO" />
         <div class="col-xs-12">
           <div id="menu-wrapper" class="menu__wrapper <?php if(is_home()) :?>link-animation<?php endif; ?>">
             <ul id="menu-list" class="nav navbar-nav menu__list">
-              <li <?php if(is_home()) :?>class="page-scroll"<?php endif; ?>><a href="http://localhost/madweb/#top">Home</a></li>
-              <li <?php if(is_home()) :?>class="page-scroll"<?php endif; ?>><a href="http://localhost/madweb/#about">Quem Somos</a></li>
-              <li <?php if(is_home()) :?>class="page-scroll"<?php endif; ?>><a href="http://localhost/madweb/#clients">Nossos Clientes</a></li>
-              <li <?php if(is_home()) :?>class="page-scroll"<?php endif; ?>><a href="http://localhost/madweb/#products">Produtos</a></li>
-              <li <?php if(is_home()) :?>class="page-scroll"<?php endif; ?>><a href="http://localhost/madweb/#contact">Contato</a></li>
+              <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#top">Home</a></li>
+              <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#about">Quem Somos</a></li>
+              <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#clients">Nossos Clientes</a></li>
+              <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#products">Produtos</a></li>
+              <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#contact">Contato</a></li>
             </ul>
           </div> <!-- /#menu-wrapper -->
         </div> <!-- /.col-xs-12 -->
@@ -59,3 +59,4 @@ Conteúdo para Blog,Social Mídia,SEO" />
     </div><!-- fim menu -->
   </div><!-- /.container-fluid -->
 </nav>
+</header>
