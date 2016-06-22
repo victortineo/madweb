@@ -306,28 +306,26 @@
     </div><!-- row -->
     <div class="row section-n6__form no-gutter">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 no-gutter text-center aniview fast" av-animation="fadeInUp">
-          <form action="https://formspree.io/contato@madgo.com.br" method="POST">
-            <input type="hidden" name="Lugar" value="Intrust WEB" />
-            <input type="hidden" name="_next" value="http://madknow.com.br/madweb/obrigado.html" />
-            <input type="hidden" name="_subject" value="Contato - Intrust WEB" />
-            <div class="col-xs-12">
-              <div class="input-group--default">
-                <input placeholder="Nome completo" required name="Nome" type="text" >
+          <form action="//madgo.us11.list-manage.com/subscribe/post?u=a87686e44179880f1e95c6c84&amp;id=ee643cbcd8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="col-xs-12 col-sm-4">
+              <div class="input-group">
+                <input placeholder="NOME" name="FNAME" id="mce-FNAME" type="text">
               </div>
-              <div class="input-group--default">
-                <input required placeholder="Telefone" name="Telefone" type="tel" >
-              </div>
-              <div class="input-group--default">
-                <input required placeholder="E-mail" name="E-mail" type="email" >
-              </div>
-              <div class="input-group--default">
-                <input placeholder="Assunto" name="Assunto" type="text" >
-              </div>
-              <div class="input-group--default">
-                <textarea placeholder="Mensagem" required name="Mensagem"></textarea>
-              </div>
-              <input type="submit" class="btn btn-custom1" value="ENVIAR">
             </div>
+            <div class="col-xs-12 col-sm-5">
+              <div class="input-group">
+                <input placeholder="SEU E-MAIL" name="EMAIL" type="email" id="mce-EMAIL">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+              <input type="submit" value="ASSINAR" name="subscribe" id="mc-embedded-subscribe" class="btn btn-custom1 btn-block">
+            </div>
+          <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a87686e44179880f1e95c6c84_ee643cbcd8" tabindex="-1" value=""></div>
+          <div class="clear"></div>
           </form>
       </div>
     </div><!-- row -->

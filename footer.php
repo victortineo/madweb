@@ -8,7 +8,7 @@
     <div class="content">
       <form action="https://formspree.io/contato@madgo.com.br" method="POST">
       <input type="hidden" name="Lugar" value="Intrust WEB" />
-      <input type="hidden" name="_next" value="http://madknow.com.br/madweb/obrigado.html" />
+      <input type="hidden" name="_next" value="<?php echo get_template_directory_uri() ?>/obrigado.html" />
       <input type="hidden" name="_subject" value="Contato - Intrust WEB" />
         <div class="col-xs-12">
           <div class="input-group--default">

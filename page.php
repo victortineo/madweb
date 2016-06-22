@@ -15,7 +15,7 @@
 		</div>
 		<div class="col-xs-12 col-sm-8">
 			<?php the_content(); ?>
-			<a class="btn btn-custom2 float--right" href="http://localhost/madweb/blog">Voltar ao blog</a>
+			<a class="btn btn-custom2 float--right" href="http://intrustweb.com.br/blog">Voltar ao blog</a>
 		</div>
 	<?php endif; ?>
 	<?php get_sidebar(); ?>
