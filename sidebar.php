@@ -1,4 +1,4 @@
-<aside class="col-xs-12 col-sm-4">
+<aside class="col-xs-12 col-sm-3">
 	<div class="sidebar newsletter">
 		<header><h1>NEWSLETTER</h1></header>
 		<span>Assine nossa newsletter</span>

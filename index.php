@@ -64,7 +64,6 @@
           </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a87686e44179880f1e95c6c84_ee643cbcd8" tabindex="-1" value=""></div>
           <div class="clear"></div>
-          </div>
           </form>
         </div>
       </article> <!-- content -->
@@ -284,7 +283,7 @@
         <div class="wrapper-sale">
           <span class="sale-desc"><span class="col-xs-12 col-md-4 col-md-offset-1 setup">Setup</span> <span class="sale-big col-xs-12 col-md-2">+</span> <span class="col-xs-12 col-md-4 mensal">Mensalidade a partir de:</span></span>
           <div class="wrapper-price">
-            <span class="sale-price sale-price--left"><span class="price-r">R$</span>1.200,00 <br class="quebra"><span class="price-d">Á VISTA</span></span>
+            <span class="sale-price sale-price--left"><span class="price-r">R$</span>250,00 <br class="quebra"><span class="price-d">Á VISTA</span></span>
             <span class="sale-price sale-price--middle">+</span>
             <span class="sale-price sale-price--right"><span class="price-r">R$</span><b>19,00</b> <br class="quebra"><span class="price-d">MENSAIS</span></span>
           </div>

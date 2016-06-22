@@ -1,4 +1,20 @@
 <?php get_header(); ?>
+<!-- HERO -->
+<!-- FUNDO + LOGO -->
+<div class="container-fluid hero text-center">
+	<!-- LOGO -->
+	<img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/hero-logo.png" alt="Instrust WEB">
+</div>
+<!-- HERO CONTENT -->
+<div class="container-fluid hero-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center">
+				<h2>Blog para interessados em <strong>gerar negócios na internet, apaixonados por design, webdesign e geração de leads através de marketing digital.</strong></h2>
+			</div>
+		</div>
+	</div>
+</div>
 <section id="blog" class="container blog">
 	<div class="row">
 		<div class="col-xs-12">
@@ -7,8 +23,7 @@
 				<hr>
 			</div>
 		</div>
-
-		<div class="col-xs-12 col-sm-8">
+		<div class="col-xs-12 col-sm-9">
 			<div class="row">
 				<?php
 					$paged = get_query_var('paged') ? get_query_var('paged') : 1;
@@ -19,7 +34,7 @@
 					$the_query = new WP_Query( $args );
 					while ( $the_query->have_posts() ) : $the_query->the_post();
 				?>
-				<article class="post-preview col-xs-12 col-sm-6">
+				<article class="post-preview col-xs-12 col-sm-4">
 					<a href="<?php echo get_permalink(); ?>">
 					<div class="post-thumbnail" style="background-image: url('<?php echo the_post_thumbnail_url(); ?>');"></div>
 					</a>

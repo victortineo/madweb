@@ -8,7 +8,7 @@
 				<hr>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-8">
+		<div class="col-xs-12 col-sm-9">
 			<div class="row">
 				<?php
 					$paged = get_query_var('paged') ? get_query_var('paged') : 1;
@@ -20,7 +20,7 @@
 					$the_query = new WP_Query( $args );
 					while ( $the_query->have_posts() ) : $the_query->the_post();
 				?>
-				<article class="post-preview col-xs-12 col-sm-6">
+				<article class="post-preview col-xs-12 col-sm-4">
 					<a href="<?php echo get_permalink(); ?>">
 					<div class="post-thumbnail" style="background-image: url('<?php echo the_post_thumbnail_url(); ?>');"></div>
 					</a>

@@ -1,22 +1,53 @@
+/**************************
+*** HERO
+**************************/
+/*FUNDO+LOGO*/
+.hero 
+	background-image url('../../assets/img/bg-blog-header.jpg')
+	background-position center center
+	background-size cover
+	background-repeat no-repeat
+	padding 128px 0 64px 0
+/*HERO-CONTENT*/
+.hero-content 
+	background-color #545050
+	color #fff
+	margin-bottom 13px
+	padding 15px 0
+.hero-content h2
+	margin 0
+.hero-content h2 > strong 
+	font-weight normal
+/**************************
+*** BLOG
+**************************/
 .blog
 	padding 100px 15px
+	@media mqmobile-md
+		text-align center
 	.page-header 
 		padding 15px 0
 		text-align left
+		@media mqmobile-md
+			text-align center
 		h1 
 			font-size 32px
 			font-weight bold
+			text-transform uppercase
 			color $customgreen2
+			@media mqmobile-md
+				font-size 24px
 			span 
 				border-bottom 5px solid $customgreen3
-		@media screen and (max-width 768px)
-			text-align center
+	img
+		max-width 100%
+		height auto
 	.post-preview
 		padding-bottom 20px
 		.post-thumbnail
 			overflow hidden
 			zoom 1
-			min-height 228px
+			min-height 200px
 			max-height 228px
 			background-size cover
 			background-position center center
@@ -64,7 +95,6 @@
 	.pagenavi
 		text-align center
 	.sidebar
-		margin-top 25px
 		text-align center
 		color white
 		header
