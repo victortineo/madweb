@@ -122,7 +122,6 @@ html {
   margin: 0;
   padding: 0;
   position: relative;
-  overflow-y: scroll;
 }
 section {
   position: relative;
