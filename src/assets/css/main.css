@@ -1097,11 +1097,7 @@ list-style
   font-size: 14px;
   font-weight: 400;
   border-bottom: 15px solid #d3d1d1;
-}
-@media only screen and (max-width: 767px) {
-  .section-n4-content {
-    text-align: center;
-  }
+  text-align: center;
 }
 .section-n4-content .wrapper-icons {
   font-size: 56px;
@@ -1118,6 +1114,7 @@ list-style
   background-color: #c1d938;
   padding: 70px 15px 150px 15px;
   border-top: 1px solid #5d8531;
+  text-align: center;
 }
 @media only screen and (max-width: 480px) {
   .section-n5 {
@@ -1126,7 +1123,7 @@ list-style
 }
 .section-n5 .img-divisor {
   position: relative;
-  width: 100%;
+  max-width: 100%;
   z-index: 1;
   margin-bottom: -25%;
 }

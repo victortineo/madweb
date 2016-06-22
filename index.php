@@ -44,7 +44,7 @@
       </header> <!-- header -->
       <article class="content col-xs-12 col-md-6"> <!-- content -->
         <div class="row">
-          <form action="//madgo.us11.list-manage.com/subscribe/post?u=a87686e44179880f1e95c6c84&amp;id=ee643cbcd8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <form action="//intrustweb.us13.list-manage.com/subscribe/post?u=a2a672fef6910f5f7276a880f&amp;id=3a32fe030f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div class="col-xs-12 col-sm-4">
               <div class="input-group">
                 <input placeholder="NOME" name="FNAME" id="mce-FNAME" type="text">
@@ -137,7 +137,7 @@
         <span>Kim</span>
       </div>
       <div class="col-xs-12 text-center">
-        <a target="_blank" href="#" class="href btn btn-custom1">VER SITE  </a>
+        <a target="_blank" href="http://movinvestimentos.com.br/" class="href btn btn-custom1">VER SITE  </a>
       </div>
     </article>
     <article role="tabpanel" class="tab-pane fade" id="tab-pane2">
@@ -148,7 +148,7 @@
         <!-- <span>Kim</span> -->
       </div>
       <div class="col-xs-12 text-center">
-        <a target="_blank" href="#" class="href btn btn-custom1">VER SITE  </a>
+        <a target="_blank" href="http://jcnassur.com.br/" class="href btn btn-custom1">VER SITE  </a>
       </div>
     </article>
     <article role="tabpanel" class="tab-pane fade" id="tab-pane3">
@@ -159,7 +159,7 @@
         <!-- <span>DR MAURICIO KURC</span> -->
       </div>
       <div class="col-xs-12 text-center">
-        <a target="_blank" href="#" class="href btn btn-custom1">VER SITE  </a>
+        <!-- <a target="_blank" href="#" class="href btn btn-custom1">VER SITE  </a> -->
       </div>
     </article>
     <article role="tabpanel" class="tab-pane fade" id="tab-pane4">
@@ -170,7 +170,7 @@
         <!-- <span>Kim</span> -->
       </div>
       <div class="col-xs-12 text-center">
-        <a target="_blank" href="#" class="href btn btn-custom1">VER SITE  </a>
+        <!-- <a target="_blank" href="#" class="href btn btn-custom1">VER SITE  </a> -->
       </div>
     </article>
     <article role="tabpanel" class="tab-pane fade" id="tab-pane5">
@@ -181,7 +181,7 @@
         <!-- <span>Kim</span> -->
       </div>
       <div class="col-xs-12 text-center">
-        <a target="_blank" href="#" class="href btn btn-custom1">VER SITE  </a>
+        <a target="_blank" href="http://bigcase.com.br/" class="href btn btn-custom1">VER SITE  </a>
       </div>
     </article>
     <article role="tabpanel" class="tab-pane fade" id="tab-pane6">
@@ -192,7 +192,7 @@
         <!-- <span>Kim</span> -->
       </div>
       <div class="col-xs-12 text-center">
-        <a target="_blank" href="#" class="href btn btn-custom1">VER SITE  </a>
+        <!-- <a target="_blank" href="#" class="href btn btn-custom1">VER SITE  </a> -->
       </div>
     </article>
   </div><!-- /.tab-content -->
@@ -232,6 +232,8 @@
         <strong>SITE GERENCIÁVEL</strong><br>
         <p>Gerencie você mesmo o seu site de onde você estiver com o módulo gestão.</p>
       </article>
+    </div><!-- row -->
+    <div class="row">
       <article class="col-xs-12 col-sm-4">
         <div class="wrapper-icons"><span class="icons icon-search1"></span></div><br>
         <strong>SEO</strong><br>
@@ -309,7 +311,7 @@
           <form action="https://formspree.io/contato@madgo.com.br" method="POST">
             <input type="hidden" name="Lugar" value="Intrust WEB" />
             <input type="hidden" name="_next" value="<?php echo get_template_directory_uri() ?>/obrigado.html" />
-            <input type="hidden" name="_subject" value="Contato - Intrust WEB" />
+            <input type="hidden" name="_subject" value="Contato Lead - Intrust WEB" />
             <div class="col-xs-12">
               <div class="input-group--default">
                 <input placeholder="Nome completo" required name="Nome" type="text" >

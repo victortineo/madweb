@@ -49,17 +49,6 @@ setTimeout(function(){
 		var $objt = $( ".postit-fixed1" )
 		$objt.css( "opacity", "1" );
 	});
-	// Trocar resposta do mailee
-	var $responseMailee = $('#mce-success-response');
-	var $formMailee = $('#mc-embedded-subscribe-form');
-	$formMailee.on("submit", function(event) {
-		setTimeout(function(){
-		if($responseMailee.is(':visible')) {
-		$responseMailee.html("Quase terminado ... Precisamos confirmar o seu endereço de e-mail. Para concluir o processo de inscrição, por favor, confirme em seu e-mail.");
-		}
-		}, 1000);
-	});
-
 }, 500);//SET TIME OUT
 // READY 
 });
