@@ -153,7 +153,7 @@
     </article>
     <article role="tabpanel" class="tab-pane fade" id="tab-pane3">
       <div class="col-xs-12 col-sm-12 col-md-6 tab-content-wrapper tab-content-1">
-        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/mov.png" alt="DR MAURICIO KURC">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/mauriciokurk.gif" alt="DR MAURICIO KURC">
         <h1>DR MAURICIO KURC</h1>
         <p>A concepção desse site foi bem interessante, fizemos esse site pensando em toda sofisticação que o consultório médico do Dr Mauricio Kurk possui. Conseguimos traduzir o refinamento empregado em seu consultório através do site e o resultado foi muito satisfatório.</p>
         <!-- <span>DR MAURICIO KURC</span> -->
