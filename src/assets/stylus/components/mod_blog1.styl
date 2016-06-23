@@ -22,7 +22,7 @@
 *** BLOG
 **************************/
 .blog
-	padding 100px 15px
+	padding 50px 15px
 	@media mqmobile-md
 		text-align center
 	.page-header 
@@ -179,5 +179,108 @@
 		span.collapsed
 			&:before
 				content "\002b"
+/*Comment Output*/
+.form-single
+	padding 25px 0 25px 0
+	margin 15px 0
+	form
+		background-color $customblack3
+		padding 25px 0 20px 0
+	.input-group
+		padding 0 15px 0 15px
+		background-color transparent		
+	input[type="submit"]
+		border 0
+		padding 8px 15px
+	strong
+		color $customblack4
+		padding 0 15px 6px 15px
+		display inline-block
+.comment-respond
+	clear both
+	padding 25px 0
+	.comment-form
+		@media mqtablet
+			text-align center
+		a
+			color $customgreen5
+		p
+			display block
+			padding 2px 0
+		label
+			display block
+		input,textarea
+			border 1px solid $customgreen5
+			padding 7px 15px
+			font-weight 600
+			font-size 16px
+			color $customgreen5
+			outline 0
+			max-width 100%
+			@media mqtablet
+				width 100%
+		textarea
+			width 100%
+			max-width 100%
+			height 100px
+			max-height 150px
+		.submit,input[type="submit"]
+			font-weight 600
+			border 0
+			outline 0
+			padding 5px 15px
+			@extend .btn-custom1
+#comments
+	font-size 18px
+	font-weight 100
+	clear both 
+	padding 25px 0
+	margin 0
+.commentlist
+	list-style none
+	padding 15px 0
+	font-size 16px
+	font-style normal
+	.fn
+		font-size 16px
+		font-weight 700
+		font-style normal
+		text-transform uppercase
+		padding 0 15px
+		a
+			font-size 16px
+			font-weight 700
+			font-style normal
+			text-transform uppercase
+			color $customgreen2
+			&:hover
+				color alpha($customgreen2, 70%)
+	.comment-awaiting-moderation
+		font-size 18px
+		font-weight 100
+		font-style normal
+		margin 15px 0
+	a
+		font-size 16px
+		font-weight 700
+		text-transform uppercase
+		color $customgreen2
+		&:hover
+			color alpha($customgreen2, 70%)
+	p
+		font-size 15px
+		padding 5px 0
+		font-weight 600
+	.comment-reply-link
+		font-size 10px
+		padding 5px 15px
+		@extend .btn-custom2
+	.commentmetadata
+		padding 5px 0
+		a
+			font-size 16px
+			font-weight 100
+	.comment-body
+		padding 15px 0
 
 	

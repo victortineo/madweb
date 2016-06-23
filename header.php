@@ -34,24 +34,25 @@ Conteúdo para Blog,Social Mídia,SEO" />
 <body data-spy="scroll" data-target="#menu-wrapper" data-offset="64">
 <header id="top">
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="branding col-xs-6 col-sm-4">
+  <div class="container navbar-wrapper">
+    <div class="branding col-xs-6 col-sm-3 text-right">
       <a href="#" title="TT Elegancia">
-        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/Intrust.png" alt="INTRUST WEB">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/intrust.png" alt="INTRUST WEB">
       </a>
     </div><!-- fim branding -->
     <div class="menu-collapse float--right">
       <span class="glyphicon glyphicon-th"></span>
     </div>
-    <div class="menu col-xs-8">
+    <div class="menu col-xs-9 col-sm-9">
       <div class="row">
         <div class="col-xs-12">
           <div id="menu-wrapper" class="menu__wrapper <?php if(is_home()) :?>link-animation<?php endif; ?>">
             <ul id="menu-list" class="nav navbar-nav menu__list">
               <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#top">Home</a></li>
-              <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#about">Quem Somos</a></li>
-              <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#clients">Nossos Clientes</a></li>
-              <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#products">Produtos</a></li>
+              <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#about">Criação de Site</a></li>
+              <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#clients">Quem confiou</a></li>
+              <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#products">Motivos</a></li>
+              <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#price">Quanto custa</a></li>
               <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#contact">Contato</a></li>
             </ul>
           </div> <!-- /#menu-wrapper -->

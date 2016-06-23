@@ -80,6 +80,13 @@
 .gutter--full {
   padding: 15px;
 }
+.inline-block,
+.navbar .menu ul,
+.navbar .menu ul li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -132,6 +139,9 @@ section {
 }
 strong {
   font-weight: 700;
+}
+img {
+  max-width: 100%;
 }
 .btn {
   color: #4b4b4b;
@@ -323,7 +333,7 @@ strong {
   font-weight: normal;
 }
 .blog {
-  padding: 100px 15px;
+  padding: 50px 15px;
 }
 @media only screen and (max-width: 767px) {
   .blog {
@@ -537,11 +547,13 @@ list-style
   padding: 25px 0 25px 0;
   margin: 15px 0;
 }
+.form-single form {
+  background-color: #333;
+  padding: 25px 0 20px 0;
+}
 .form-single .input-group {
   padding: 0 15px 0 15px;
-}
-.form-single input {
-  border: 1px solid #5a5656;
+  background-color: transparent;
 }
 .form-single input[type="submit"] {
   border: 0;
@@ -764,20 +776,27 @@ list-style
   border-radius: 0;
   padding: 0;
 }
-.postit-fixed1 {
+.postit {
   -webkit-transition: 1s all ease-in;
   -moz-transition: 1s all ease-in;
   transition: 1s all ease-in;
   position: fixed;
   opacity: 0;
-  top: 50%;
-  right: 0;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.postit-fixed1 a {
+.postit a {
   display: block;
+}
+.postit-fixed1 {
+  top: 50%;
+  right: 0;
+}
+.postit-fixed2 {
+  top: 100%;
+  bottom: -64px;
+  right: 0;
 }
 .navbar {
   border-radius: 0;
@@ -796,6 +815,11 @@ list-style
     background-color: #fff;
   }
 }
+@media only screen and (min-width: 1170px) {
+  .navbar-wrapper {
+    max-width: 930px;
+  }
+}
 .navbar .branding {
   text-align: center;
   display: block;
@@ -808,10 +832,10 @@ list-style
   background-color: #fff;
 }
 .navbar .menu ul {
-  margin: 0;
+  float: right;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
-  display: block;
 }
 @media only screen and (max-width: 1023px) {
   .navbar .menu ul {

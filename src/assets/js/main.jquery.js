@@ -46,8 +46,10 @@ setTimeout(function(){
 	});
 	// Aparecer postit ao rolar a pagina
 	$( window ).scroll(function() {
-		var $objt = $( ".postit-fixed1" )
-		$objt.css( "opacity", "1" );
+		var $objt = $( ".postit" );
+		$objt.each(function(index, el) {
+			$objt.css( "opacity", "1" );
+		});
 	});
 }, 500);//SET TIME OUT
 // READY 

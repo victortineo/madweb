@@ -88,32 +88,32 @@
   <div class="col-xs-12 no-gutter">
     <!-- Nav tabs -->
     <ul class="nav nav-tabs" role="tablist">
-      <li role="presentation" class="active col-xs-6 col-sm-6 col-md-2">
+      <li role="presentation" class="active col-xs-4 col-sm-6 col-md-2">
         <a href="#tab-pane1" aria-controls="tab-pane1" role="tab" data-toggle="tab">
           <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo1.png" alt="MOV INVESTIMENTOS">
         </a>
       </li>
-      <li role="presentation" class="col-xs-6 col-sm-6 col-md-2">
+      <li role="presentation" class="col-xs-4 col-sm-6 col-md-2">
         <a href="#tab-pane2" aria-controls="tab-pane2" role="tab" data-toggle="tab">
           <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo2.png" alt="JC NASSUR"> 
         </a>
       </li>
-      <li role="presentation" class="col-xs-6 col-sm-6 col-md-2">
+      <li role="presentation" class="col-xs-4 col-sm-6 col-md-2">
         <a href="#tab-pane3" aria-controls="tab-pane3" role="tab" data-toggle="tab">
           <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo3.png" alt="DR MAURICIO KURK"> 
         </a>
       </li>
-      <li role="presentation" class="col-xs-6 col-sm-6 col-md-2">
+      <li role="presentation" class="col-xs-4 col-sm-6 col-md-2">
         <a href="#tab-pane4" aria-controls="tab-pane4" role="tab" data-toggle="tab">
           <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo4.png" alt="PANDORAS BOX"> 
         </a>
       </li>
-      <li role="presentation" class="col-xs-6 col-sm-6 col-md-2">
+      <li role="presentation" class="col-xs-4 col-sm-6 col-md-2">
         <a href="#tab-pane5" aria-controls="tab-pane5" role="tab" data-toggle="tab">
           <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo5.png" alt="BIG CASE">
         </a>
       </li>
-      <li role="presentation" class="col-xs-6 col-sm-6 col-md-2">
+      <li role="presentation" class="col-xs-4 col-sm-6 col-md-2">
         <a href="#tab-pane6" aria-controls="tab-pane6" role="tab" data-toggle="tab">
           <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo6.png" alt="SEQUENZA">   
         </a>
@@ -236,7 +236,7 @@
       <article class="col-xs-12 col-sm-4">
         <div class="wrapper-icons"><span class="icons icon-search1"></span></div><br>
         <strong>SEO</strong><br>
-        <p>Site com tecnologia que permite otimização para SEO. Garanta o melhor posicionamento nos mecanismos de busca do Google</p>
+        <p>Site com tecnologia que permite otimização para SEO. Garanta o melhor posicionamento nos mecanismos de busca do Google.</p>
       </article>
       <article class="col-xs-12 col-sm-4">
         <div class="wrapper-icons"><span class="icons icon-alvo1"></span></div><br>
@@ -253,7 +253,7 @@
 </section><!-- section-n4 -->
 
 <!-- Section-n5 Prices -->
-<section class="section-n5">
+<section id="price" class="section-n5">
   <div class="container">
     <div class="row">
       <header class="page-header">

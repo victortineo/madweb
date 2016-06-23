@@ -10,6 +10,9 @@
 		top 0
 		padding 0 15px
 		background-color $customwhite1
+	@media mqdesktop
+		&-wrapper
+			max-width 930px
 	.branding
 		text-align center
 		display block
@@ -20,10 +23,10 @@
 		background-color white
 	.menu
 		ul
-			margin 0
+			float right
+			margin 0 auto
 			padding 0
 			list-style none
-			display block
 			@extend .inline-block
 			@media mqtablet-md
 				float none

@@ -30,7 +30,7 @@
 	              </div>
 	            </div>
 	            <div class="col-xs-12 col-sm-3">
-	              <input type="submit" value="ASSINAR" name="subscribe" id="mc-embedded-subscribe" class="btn btn-custom3 btn-block">
+	              <input type="submit" value="ASSINAR" name="subscribe" id="mc-embedded-subscribe" class="btn btn-custom1 btn-block">
 	            </div>
 		      <div id="mce-responses" class="clear">
 		      <div class="response" id="mce-error-response" style="display:none"></div>

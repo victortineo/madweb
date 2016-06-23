@@ -37,9 +37,14 @@
   <div class="footer__credits">
     <span>UM PRODUTO <a href="http://madgo.com.br" target="_blank"><strong>MADGO</strong></a></span>
   </div>
-  <figure class="postit-fixed1 link-animation visible-md visible-lg">
+  <figure class="postit postit-fixed1 visible-md visible-lg">
     <a href="#" class="modalContact__click" title="Faça um orçamento!">
       <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/quero_orcamento.png" alt="Quero um Orçamento">
+    </a>
+  </figure>
+  <figure class="postit postit-fixed2 visible-xs visible-sm">
+    <a href="#" class="modalContact__click" title="Faça um orçamento!">
+      <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/orcamento_mobile.png" alt="Quero um Orçamento">
     </a>
   </figure>
 </footer>
