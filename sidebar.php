@@ -1,7 +1,7 @@
 <aside class="col-xs-12 col-sm-3">
 	<div class="sidebar newsletter">
-		<header><h1>NEWSLETTER</h1></header>
-		<span>Assine nossa newsletter</span>
+		<header><h1>Assine nossa newsletter</h1></header>
+		<span></span>
 		<form action="//intrustweb.us13.list-manage.com/subscribe/post?u=a2a672fef6910f5f7276a880f&amp;id=3a32fe030f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 			<div class="input-group">
 				<input type="text" placeholder="Seu nome" name="FNAME" id="mce-FNAME">

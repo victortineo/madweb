@@ -33,8 +33,12 @@
 					<div class="post-thumbnail" style="background-image: url('<?php echo the_post_thumbnail_url(); ?>');"></div>
 					</a>
 					<div class="post-content">
-						<h1><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h1>
+						<h1><a class="title" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h1>
 						<?php the_excerpt(); ?>
+						<?php 
+							$share = '[ssba url='. get_permalink() . ' title="Share"]';
+							echo do_shortcode($share);
+						?>
 					</div>
 					<div class="post-excerpt">
 						<span class="glyphicon glyphicon-time"></span><span><?php the_date($d) ; ?></span><br>

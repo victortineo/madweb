@@ -307,7 +307,7 @@
     </div><!-- row -->
     <div class="row section-n6__form no-gutter">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 no-gutter text-center aniview fast" av-animation="fadeInUp">
-          <form action="https://formspree.io/contato@madgo.com.br" method="POST">
+          <form action="https://formspree.io/ricardo.rocha@madgo.com.br" method="POST">
             <input type="hidden" name="Lugar" value="Intrust WEB" />
             <input type="hidden" name="_next" value="<?php echo get_template_directory_uri() ?>/obrigado.html" />
             <input type="hidden" name="_subject" value="Contato Lead - Intrust WEB" />

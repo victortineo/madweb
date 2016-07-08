@@ -1,6 +1,7 @@
 <?php get_header(); ?>
-<section class="container blog">
+<section class="container blog single">
 	<div class="row">
+		<?php get_sidebar(); ?>
 		<?php
 		$args = array(
 		'post_type' => 'post'
@@ -8,12 +9,14 @@
 		$the_query = new WP_Query( $args );
 		if ( $the_query->have_posts() ) : $the_query->the_post();
 		?>
-		<div class="col-xs-12">
+		<div class="col-xs-12 col-sm-8 col-sm-offset-1">
 			<div class="page-header">
 				<h1><?php the_title(); ?></h1>
+				<?php 
+					$share = '[ssba url='. get_permalink() . 'title="Share"]';
+					echo do_shortcode($share);
+				?>
 			</div>
-		</div>
-		<div class="col-xs-12 col-sm-9">
 			<?php the_content(); ?>
 			<a class="btn btn-custom1" href="http://intrustweb.com.br/blog">Voltar ao blog</a>
 			<div class="row form-single no-gutter">
@@ -43,8 +46,6 @@
 			<?php comments_template(); ?>
 		</div>
 	<?php endif; ?>
-	<?php get_sidebar(); ?>
-
 	</div>
 </section>
 <?php get_footer(); ?>

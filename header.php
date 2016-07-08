@@ -10,20 +10,17 @@
       bloginfo('name'); echo " - "; bloginfo('description');
   }
   ?>" />
-  <meta name="keywords" content="Marca – Logotipo,Namming,Identidade Visual,Papelaria,Apresentações Institucional,Apresentação Comercial,
-Folder,Design Gráfico,Conceito Criativo,Site – Website,Layout Mobile,Wireframing,Desenvolvimento,
-Responsivo – Mobile,UX/UI Design,One Page Site,App – Aplicativo,Wordpress e HTML,Front-end,
-Adwords,Links Patrocinados,Facebook Ads,E-mail Marketing,Landing Page,Inbound,Geração de Leads,
-Conteúdo para Blog,Social Mídia,SEO" />
-  <meta name="author" content="Joel Santos - MadGO" />
-  <meta name="contact" content="joel.santos@madgo.com.br" />
+  <meta name="keywords" content="fazer meu site, fazer um site, site responsivo, criar site, fazer site, desenvolvimento de sites, quero fazer um site, como montar um site, webdesign, site, website, desenvolvimento, html, wordpress, frontend, front-end, criação de site, landing page, blog, one page site, ux, user experience, seo, wireframe, layout mobile, marketing digital, lead, leads, geração de leads, links patrocinados, adwords, landing page, inbound, blog, one page site, ux, user experience, seo, wireframe, layout mobile, app, desenvolvimento de app" />
+  <meta name="author" content="Intrust WEB" />
+  <meta name="contact" content="contato@intrustweb.com.br" />
+  <meta name="google-site-verification" content="HUJJQNVAyZDn2ghFd2dLp_RzHYS_HvlGqDouAZwWpyo" />
 
-	<title><?php wp_title('-', true, 'right'); bloginfo() ?></title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/bower_components/animate.css/animate.min.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/dist/assets/font/icomoon/style.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/dist/assets/css/main.css">
+  <title><?php wp_title('-', true, 'right'); bloginfo() ?></title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/bower_components/animate.css/animate.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/dist/assets/font/icomoon/style.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/dist/assets/css/main.css">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -35,15 +32,15 @@ Conteúdo para Blog,Social Mídia,SEO" />
 <header id="top">
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container navbar-wrapper">
-    <div class="branding col-xs-6 col-sm-3 text-right">
-      <a href="#" title="TT Elegancia">
+    <div class="branding col-xs-8 col-sm-2 text-right">
+      <a href="<?php bloginfo('url');?>" title="<?php wp_title('-', true, 'right'); bloginfo() ?>">
         <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/intrust.png" alt="INTRUST WEB">
       </a>
     </div><!-- fim branding -->
     <div class="menu-collapse float--right">
       <span class="glyphicon glyphicon-th"></span>
     </div>
-    <div class="menu col-xs-9 col-sm-9">
+    <div class="menu col-xs-9 col-sm-10">
       <div class="row">
         <div class="col-xs-12">
           <div id="menu-wrapper" class="menu__wrapper <?php if(is_home()) :?>link-animation<?php endif; ?>">
@@ -54,6 +51,7 @@ Conteúdo para Blog,Social Mídia,SEO" />
               <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#products">Motivos</a></li>
               <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#price">Quanto custa</a></li>
               <li><a href="<?php if(!is_home()):bloginfo('url'); echo "/"; endif; ?>#contact">Contato</a></li>
+              <li class="<?php if(is_page("blog")){echo "active";} ?>"><a href="<?php bloginfo('url');?>/blog">Blog</a></li>
             </ul>
           </div> <!-- /#menu-wrapper -->
         </div> <!-- /.col-xs-12 -->

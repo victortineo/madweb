@@ -6,7 +6,7 @@
       <h1>Peça um orçamento agora!<br><small>Nossa equipe está aguardando as suas informações para lhe enviar um orçamento em menos de 24 horas</small></h1>
     </header>
     <div class="content">
-      <form action="https://formspree.io/contato@madgo.com.br" method="POST">
+      <form action="https://formspree.io/ricardo.rocha@madgo.com.br" method="POST">
       <input type="hidden" name="Lugar" value="Intrust WEB" />
       <input type="hidden" name="_next" value="<?php echo get_template_directory_uri() ?>/obrigado2.html" />
       <input type="hidden" name="_subject" value="Contato Modal - Intrust WEB" />
