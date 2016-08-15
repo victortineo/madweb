@@ -119,7 +119,9 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<footer class="footer">
+<footer class="footer <?php if (is_page("landing-page" )) {
+  echo "landingpage";
+} ?>">
   <div class="footer__contact">
     <p>contato@intrustweb.com.br <span class="hidden-xs">|</span> Ou se preferir, ligue-nos: 11 3436.8132</p>
   </div>
@@ -142,6 +144,8 @@
     </a>
   </figure>
 </footer>
+
+</div><!-- page -->
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/bower_components/jquery/dist/jquery.min.js"></script>
 <!-- <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>

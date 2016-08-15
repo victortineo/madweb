@@ -174,11 +174,8 @@ strong {
   outline: 0;
 }
 .btn:hover,
-.btn:link,
 .btn:active,
-.btn:focus,
-.btn:visited,
-.btn:click {
+.btn:focus {
   outline: 0;
 }
 .btn-custom1,
@@ -190,18 +187,12 @@ strong {
 .btn-custom1:hover,
 .comment-respond .comment-form .submit:hover,
 .comment-respond .comment-form input[type="submit"]:hover,
-.btn-custom1:link,
-.comment-respond .comment-form .submit:link,
-.comment-respond .comment-form input[type="submit"]:link,
 .btn-custom1:active,
 .comment-respond .comment-form .submit:active,
 .comment-respond .comment-form input[type="submit"]:active,
 .btn-custom1:focus,
 .comment-respond .comment-form .submit:focus,
-.comment-respond .comment-form input[type="submit"]:focus,
-.btn-custom1:visited,
-.comment-respond .comment-form .submit:visited,
-.comment-respond .comment-form input[type="submit"]:visited {
+.comment-respond .comment-form input[type="submit"]:focus {
   color: #e6e6e6;
   background-color: #ed2430;
 }
@@ -212,16 +203,32 @@ strong {
 }
 .btn-custom2:hover,
 .commentlist .comment-reply-link:hover,
-.btn-custom2:link,
-.commentlist .comment-reply-link:link,
 .btn-custom2:active,
 .commentlist .comment-reply-link:active,
 .btn-custom2:focus,
-.commentlist .comment-reply-link:focus,
-.btn-custom2:visited,
-.commentlist .comment-reply-link:visited {
+.commentlist .comment-reply-link:focus {
   color: rgba(51,51,51,0.9);
   background-color: #becc31;
+}
+.btn-custom3 {
+  color: #fff;
+  background-color: #005e96;
+}
+.btn-custom3:hover,
+.btn-custom3:active,
+.btn-custom3:focus {
+  color: #e6e6e6;
+  background-color: #004b78;
+}
+.btn-custom4 {
+  color: #000;
+  background-color: #ffc107;
+}
+.btn-custom4:hover,
+.btn-custom4:active,
+.btn-custom4:focus {
+  color: #000;
+  background-color: #d29d00;
 }
 .input-group {
   display: inline-block;
@@ -903,6 +910,32 @@ list-style
   margin-bottom: 0px;
   display: inline-block;
 }
+.landingpage .carousel .carousel-inner .item {
+  background-image: url("../img/slider2.jpg");
+}
+.landingpage #mod-contTo-1 {
+  background-image: url("../img/bg-contador2.jpg");
+}
+.landingpage .section-n2 {
+  background-image: none;
+  background-color: #005e96;
+  color: #fff;
+}
+.landingpage .section-n4,
+.landingpage .section-n5 {
+  background-color: #3092cc;
+  border-color: #005e96;
+}
+.landingpage .section-n4 h1,
+.landingpage .section-n5 h1 {
+  color: #fff;
+}
+.landingpage .footer__contact {
+  background-color: #3092cc;
+}
+.landingpage .footer__credits {
+  background-color: #005e96;
+}
 .postit-fixed1 {
   -webkit-transition: 1s all ease-in;
   -moz-transition: 1s all ease-in;
@@ -1140,6 +1173,8 @@ list-style
   padding: 0 15px;
 }
 .carousel .carousel-inner .item .carousel-caption {
+  max-width: 1170px;
+  margin: 0 auto;
   width: 100%;
   left: 0;
   right: 0;
@@ -1154,7 +1189,7 @@ list-style
 }
 .carousel .carousel-inner .item .carousel-caption h1 {
   text-transform: uppercase;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 900;
   -webkit-text-shadow: 1px 1px 1px #000;
   -moz-text-shadow: 1px 1px 1px #000;

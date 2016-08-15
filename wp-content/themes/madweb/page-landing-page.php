@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 <?php if (have_posts()): while (have_posts()):the_post(); ?>
+<div id="<?php echo get_the_ID(); ?>" class="landingpage">
+
 <div id="carousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <!-- <ol class="carousel-indicators">
@@ -11,7 +13,7 @@
       <div class="carousel-caption aniview" av-animation="slideInRight">
         <h1>Você precisa desenvolver uma Landing Page.<br>Nós desejamos fazer uma Landing Page para você!</h1>
         <p>Soluções para vender mais na internet</p>
-        <a href="#about" class="btn btn-custom1">SAIBA MAIS</a>
+        <a href="#about" class="btn btn-custom3">SAIBA MAIS</a>
       </div>
     </div>
   </div>
@@ -29,7 +31,7 @@
         <div class="section-n1__content">
           <p>Criação de uma Landing Page para empresas que procuram soluções para vender mais na internet através de um formato cuidadosamente desenvolvido pela Intrust Web, garantindo em sua tecnologia o desenvolvimento leve, com design inovador, respeitando as normas de uma Langing Page responsiva precisa e práticas para garantir a conversão e atração de mais clientes (Leads) para o seu negócio.</p>
         </div>
-        <a href="#clients" class="btn btn-custom1">SAIBA MAIS</a>
+        <a href="#clients" class="btn btn-custom3">SAIBA MAIS</a>
       </article>
     </div><!-- row -->
   </div><!-- container -->
@@ -77,41 +79,126 @@
     <div class="row section-n3__cases">
       <header class="page-header">
         <h1>Quem já confiou</h1>
-        <h2>Conheça quem já confiou na criação de landing page</h2>
+        <h2>Conheça quem já confiou na criação de site</h2>
       </header>
     </div><!-- row -->
   </div><!-- container -->
 </section><!-- section-n1 -->
 <section class="section-n3__cases-content mod_tabnav2">
 <div class="container">
-  <div class="row">
-  <div class="col-xs-2">
-    <a href="#" class="owl-nav owl-nav-left"><span class="glyphicon glyphicon-menu-left"></span></a>
-  </div>
-  <div class="col-xs-8">
-    <div class="owl-carousel owl-theme">
-        <figure class="item"><a href="http://www.madgo.com.br/logo-brand-marca/" target="_blank">
-          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/clientes/madgo-1.png" alt="">
-        </a></figure>
-        <figure class="item"><a href="http://cnfactoring.com.br/" target="_blank">
-          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/clientes/cnfactoring.png" alt="">
-        </a></figure>
-        <figure class="item"><a href="http://www.stressenglish.com.br/ingles-internet-skype/" target="_blank">
-          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/clientes/stressenglish.png" alt="">
-        </a></figure>
-        <figure class="item"><a href="http://madgo.com.br/criacao-de-site/" target="_blank">
-          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/clientes/madgo-2.png" alt="">
-        </a></figure>
-        <figure class="item"><a href="http://madgo.com.br/eurofactoring/" target="_blank">
-          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/clientes/eurofactoring.png" alt="">
-        </a></figure>
-    </div>
-  </div>
-  <div class="col-xs-2">
-    <a href="#" class="owl-nav owl-nav-right"><span class="glyphicon glyphicon-menu-right"></span></a>
-  </div>
-  </div>
-</div>
+<div class="row">
+  <div class="col-xs-12 no-gutter">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+
+      <li role="presentation" class="active col-xs-4 col-sm-6 col-md-2 col-md-offset-3">
+        <a href="#tab-pane1" aria-controls="tab-pane1" role="tab" data-toggle="tab">
+          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo8.png" alt="MOV INVESTIMENTOS">
+        </a>
+      </li>
+      <li role="presentation" class="col-xs-4 col-sm-6 col-md-2">
+        <a href="#tab-pane2" aria-controls="tab-pane2" role="tab" data-toggle="tab">
+          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo9.png" alt="JC NASSUR"> 
+        </a>
+      </li>
+      <li role="presentation" class="col-xs-4 col-sm-6 col-md-2">
+        <a href="#tab-pane3" aria-controls="tab-pane3" role="tab" data-toggle="tab">
+          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo7.png" alt="DR MAURICIO KURK"> 
+        </a>
+      </li>
+<!--       <li role="presentation" class="col-xs-4 col-sm-6 col-md-2">
+        <a href="#tab-pane4" aria-controls="tab-pane4" role="tab" data-toggle="tab">
+          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo4.png" alt="PANDORAS BOX"> 
+        </a>
+      </li> -->
+<!--       <li role="presentation" class="col-xs-4 col-sm-6 col-md-2">
+        <a href="#tab-pane5" aria-controls="tab-pane5" role="tab" data-toggle="tab">
+          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo5.png" alt="BIG CASE">
+        </a>
+      </li>
+      <li role="presentation" class="col-xs-4 col-sm-6 col-md-2">
+        <a href="#tab-pane6" aria-controls="tab-pane6" role="tab" data-toggle="tab">
+          <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/logo6.png" alt="SEQUENZA">   
+        </a>
+      </li> -->
+    </ul> <!-- /.nav-tabs -->
+  </div> <!-- xs.12 -->
+</div><!-- row -->
+</div><!-- container -->
+<hr>
+<div class="container">
+<div class="row">
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <!-- GLOBALSTAR -->
+    <article role="tabpanel" class="tab-pane fade in active" id="tab-pane1">
+      <div class="col-xs-12 col-sm-12 col-md-6 tab-content-wrapper tab-content-1">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/euro.gif" alt="MOV INVESTIMENTOS">
+        <h1>EURO FACTORING</h1>
+        <p>"O desenvolvimento aconteceu com fluidez e com um atendimento de muita qualidade, estou 100% satisfeito e tenho orgulho do resultado final. Sou grato pelo trabalho desenvolvimento pela equipe da Intrust Web"</p>
+      </div>
+      <div class="col-xs-12 text-center">
+        <a target="_blank" href="http://madgo.com.br/eurofactoring/" class="href btn btn-custom1">DEMONSTRAÇÃO</a>
+      </div>
+    </article>
+    <article role="tabpanel" class="tab-pane fade" id="tab-pane2">
+      <div class="col-xs-12 col-sm-12 col-md-6 tab-content-wrapper tab-content-1">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/stress-english.gif" alt="JC NASSUR">
+        <h1>STRESS ENGLISH</h1>
+        <p>Site desenvolvido em cima de um framework atualizado e moderno levando em conta que o cliente é do ramo tecnológico. A proposta exibe imagens relacionadas aos serviços no slider para contextualizar o usuário em seu seguimento. Com uma estrutura de rápida leitura e entendimento pois foi possível se ter um ótimo resultado com UX , os campos seguem uma linha coerente de conteúdo, apresentando a empresa de acordo com a mudança de seções. Nosso objetivo com esse site foi que o usuário já chegasse ao final do site com a vontade de fazer uma parceria com a JC Nassur, e conseguimos esse nível de excelência.</p>
+        <!-- <span>Kim</span> -->
+      </div>
+      <div class="col-xs-12 text-center">
+        <a target="_blank" href="http://www.stressenglish.com.br/ingles-internet-skype/" class="href btn btn-custom1">DEMONSTRAÇÃO</a>
+      </div>
+    </article>
+    <article role="tabpanel" class="tab-pane fade" id="tab-pane3">
+      <div class="col-xs-12 col-sm-12 col-md-6 tab-content-wrapper tab-content-1">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/cnfactoring.gif" alt="DR MAURICIO KURC">
+        <h1>CN FACTORING</h1>
+        <p>A concepção desse site foi bem interessante, fizemos esse site pensando em toda sofisticação que o consultório médico do Dr Mauricio Kurk possui. Conseguimos traduzir o refinamento empregado em seu consultório através do site e o resultado foi muito satisfatório.</p>
+        <!-- <span>DR MAURICIO KURC</span> -->
+      </div>
+      <div class="col-xs-12 text-center">
+        <a target="_blank" href="http://cnfactoring.com.br/" class="href btn btn-custom1">DEMONSTRAÇÃO</a>
+      </div>
+    </article>
+    <article role="tabpanel" class="tab-pane fade" id="tab-pane4">
+      <div class="col-xs-12 col-sm-12 col-md-6 tab-content-wrapper tab-content-1">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/Pandoras.gif" alt="PANDORAS BOX">
+        <h1>PANDORAS BOX</h1>
+        <p>O site da Pandoras Box foi bem bacana de fazer, o importante era ter imagens que exemplificasse bem o Core Business do cliente. Como tudo na Pandoras Box é muito visual trouxemos um layout com bastante sliders, deixando os conteúdos leves e bem ilustrados, seguindo o conceito do “menos é mais”.</p>
+        <!-- <span>Kim</span> -->
+      </div>
+      <div class="col-xs-12 text-center">
+        <a target="_blank" href="http://pandorasbox.com.br/" class="href btn btn-custom1">VER SITE  </a>
+      </div>
+    </article>
+    <article role="tabpanel" class="tab-pane fade" id="tab-pane5">
+      <div class="col-xs-12 col-sm-12 col-md-6 tab-content-wrapper tab-content-1">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/bigcase.gif" alt="BIG CASE">
+        <h1>BIG CASE</h1>
+        <p>Este site foi desenvolvido e pensado para um público jovem, universitários. Então usamos cores que trazem em seu tom uma certa jovialidade, e para complementar essa ideia, foram empregados ícones nesse mesmo contexto, deixando o site bem moderno e atual. Tivemos bastante êxito pois as expectativas do cliente foram excedidas principalmente quanto a layout e também quanto a funcionalidades.</p>
+        <!-- <span>Kim</span> -->
+      </div>
+      <div class="col-xs-12 text-center">
+        <a target="_blank" href="http://bigcase.com.br/" class="href btn btn-custom1">VER SITE  </a>
+      </div>
+    </article>
+    <article role="tabpanel" class="tab-pane fade" id="tab-pane6">
+      <div class="col-xs-12 col-sm-12 col-md-6 tab-content-wrapper tab-content-1">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/assets/img/cases/sequenza.gif" alt="SEQUENZA">
+        <h1>SEQUENZA</h1>
+        <p>Este projeto foi muito interessante de se fazer, pois foi o primeiro job que fizemos. O site é multipage mas também é onepage, apresentando assim páginas longas que descrevem o que a empresa faz de maneira fácil e intuitiva, na home a história da empresa é apresentada ao visitante da página. O UX também foi bem empregado neste projeto, pensamos na concepção do mesmo, desde o nascimento com o Wireframe até o desenvolvimento do responsivo. E o resultado final foi um site bem visual, com efeitos bacanas e muita modernidade impressa. Temos um projeto bem diferente dos projetos de empresas de TI que geralmente seguem um mesmo padrão mais conservador.</p>
+        <!-- <span>Kim</span> -->
+      </div>
+      <div class="col-xs-12 text-center">
+        <a target="_blank" href="http://www.sequenza.com.br/" class="href btn btn-custom1">VER SITE  </a>
+      </div>
+    </article>
+  </div><!-- /.tab-content -->
+</div> <!-- /.row -->
+</div><!-- container -->
 </section>
 <!-- Section-n3 Cases -->
 
@@ -141,7 +228,7 @@
         <p>Landing page responsiva para mobile, garantindo a visibilidade para todos os usuários e os resultados da buscas através de dispositivos mobile.</p>
       </article>
       <article class="col-xs-12 col-sm-4">
-        <div class="wrapper-icons"><span class="icons icon-hand1"></span></div><br>
+        <div class="wrapper-icons"><span class="icons icon-site-gerenciavel"></span></div><br>
         <strong>CUSTO BENEFÍCIO</strong><br>
         <p>Melhor custo x benefício de acordo com pesquisas do mercado</p>
       </article>
@@ -291,7 +378,7 @@
               <div class="input-group--default">
                 <textarea placeholder="Mensagem" required name="Mensagem"></textarea>
               </div>
-              <input type="submit" class="btn btn-custom1" value="ENVIAR">
+              <button type="submit" class="btn btn-custom1">ENVIAR</button>
             </div>
           </form>
       </div>
@@ -300,5 +387,4 @@
 </section><!-- section-n6 -->
 
 <?php endwhile; endif; ?>
-
 <?php get_footer(); ?>
