@@ -22,6 +22,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/bower_components/owl.carousel/dist/assets/owl.theme.default.min.css">
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/bower_components/animate.css/animate.min.css">
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/dist/assets/font/icomoon/style.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/dist/assets/font/icomoon/icomoon/style.css">
   
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/dist/assets/css/main.css">
     <!--[if lt IE 9]>
@@ -54,7 +55,7 @@
 
                 <a href="#" class="dropdown-toggle" id="dropProdutos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Produtos <span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="dropProdutos">
-                  <li><a href="<?php bloginfo('url'); ?>">Criação de site</a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/criacao-de-site">Criação de site</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/landing-page">Landing page</a></li>
                 </ul>
 
@@ -72,7 +73,7 @@
 
                 <a href="#" class="dropdown-toggle" id="dropProdutos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Produtos <span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="dropProdutos">
-                  <li><a href="<?php bloginfo('url'); ?>">Criação de site</a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/criacao-de-site">Criação de site</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/landing-page">Landing page</a></li>
                 </ul>
 
@@ -90,7 +91,7 @@
 
                 <a href="#" class="dropdown-toggle" id="dropProdutos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Produtos <span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="dropProdutos">
-                  <li><a href="<?php bloginfo('url'); ?>">Criação de site</a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/criacao-de-site">Criação de site</a></li>
                   <li><a href="<?php bloginfo('url'); ?>/landing-page">Landing page</a></li>
                 </ul>
 
